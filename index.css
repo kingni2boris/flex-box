@@ -1,0 +1,18 @@
+body{
+    padding:0;
+    margin:0;
+}
+.contener{
+      display:flex;
+      flex-direction: row;
+      background-color:teal;
+      justify-content: space-around;
+
+}
+.contener> div{
+     background-color:coral;
+    
+     padding:20px;
+     color:white;
+     font-size:2rem;
+}
